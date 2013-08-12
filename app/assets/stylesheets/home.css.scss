@@ -7,9 +7,21 @@
 	margin-bottom:50px;
 	margin-left:50px;
 	float:left;
-	border-right:solid 5px black;
+	border:solid 5px black;
 	width:350px;
-	height:550px;
+	height:545px;
+	background-color:#9ecf66;
+}
+
+#left_box_home {
+	margin-top:70px;
+}
+
+h1.left_container_text_home {
+	font-size:68px;
+	font-family:Copperplate;
+	text-align:center;
+	color:#00212f
 }
 
 #right_container_home {
