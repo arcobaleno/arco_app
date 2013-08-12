@@ -3,7 +3,7 @@
 div.container {
 	width:1190px;
 	margin:auto;
-	height:550px;
+	height:650px;
 }
 
 /* header */
@@ -23,7 +23,7 @@ div.container {
 .left_header {	
 	float:left;
 	margin-left:100px;
-	margin-top:25px;
+	margin-top:20px;
 }
 
 .right_header {
@@ -31,6 +31,10 @@ div.container {
 	float:right;
 	margin-right:100px;
 	margin-top:25px;
+}
+
+h1.logo {
+	font-size:30px;
 }
 
 ul.top_nav_bar {

@@ -2,39 +2,55 @@
 
 /* First Layer */
 
-#left_container {
+#left_container_home {
 	margin-top:50px;
 	margin-bottom:50px;
 	margin-left:50px;
 	float:left;
 	border-right:solid 5px black;
 	width:350px;
-	height:450px;
+	height:550px;
 }
 
-#right_container {
+#right_container_home {
 	margin-top:50px;
 	margin-bottom:50px;
 	float:left;
 	width:700px;
-	height:450px;
+	height:550px;
 	margin-left:50px;
 }
 
 /* Right Side */
 
-#top_right_box {
+#top_right_box_home {
 	border:solid 5px black;
-	height:160px;
+	height:214px;
+	width:627px;
 }
 
-#middle_right_divider {
+#middle_right_divider_home {
 	margin-top:50px;
 	border:solid 3px black;
+	width:627px;
 }
 
-#bottom_right_box {
+#bottom_right_box_home {
 	margin-top:50px;
 	border:solid 5px black;
-	height:160px;
+	height:214px;
+	width:627px;
+}
+
+.banner {
+	position:relative;
+	overflow:auto;
+}
+
+.banner li {
+	list-style:none;
+}
+
+.banner ul li {
+	float:left;
 }

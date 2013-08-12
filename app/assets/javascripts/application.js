@@ -12,4 +12,9 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require unslider.js
 //= require_tree .
+
+$(function() {
+	$('.banner').unslider();
+});
