@@ -7,19 +7,53 @@
 	float:left;
 	border-right:solid 5px black;
 	width:350px;
-	height:450px;
+	height:550px;
 }
 
-#middle_left_divider_contact {
-	margin-top:220px;
+#top_left_container {
+	height:200px;
+	border:1px solid black;
 	margin-right:50px;
+	margin-bottom:50px;
+	margin-top:40px;
+}
+
+#top_left_container_text {
+	text-align:center;
+	margin-top:50px;
+}
+
+#bottom_left_container {
+	height:170px;
+	border:1px solid black;
+	margin-right:50px;
+	margin-top:80px;
+}
+
+#bottom_left_container_text {
+	text-align:center;
+	margin-top:50px;
+}
+
+h1#h1_contact {
+	font-size:24px;
+}
+
+h2#h2_contact {
+	font-size:20px;
+}
+
+
+#middle_left_divider_contact {
+	height:10px;
 	border:solid 3px black;
+	margin-top:15px;
 }
 
 /* Right Side */
 
 #right_container_contact {
-	margin-top:50px;
+	margin-top:100px;
 	margin-bottom:50px;
 	float:left;
 	width:700px;
@@ -31,4 +65,5 @@
 	margin-top:34px;
 	border:solid 5px black;
 	height:370px;
+	width:627px;
 }
