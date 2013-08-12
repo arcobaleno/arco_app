@@ -32,6 +32,22 @@ $(function() {
 });
 
 $(function() {
+    $('#slide2_box1').hover(function(){
+    $('#slide2_box1').css("opacity","0.4");
+    },function(){
+    $('#slide2_box1').css("opacity","1.0");
+  });
+});
+
+$(function() {
+    $('#slide2_box2').hover(function(){
+    $('#slide2_box2').css("opacity","0.4");
+    },function(){
+    $('#slide2_box2').css("opacity","1.0");
+  });
+});
+
+$(function() {
 	$('.banner').unslider();
 });
 
