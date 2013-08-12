@@ -54,6 +54,8 @@ h1.left_container_text_home {
 	width:627px;
 }
 
+/* Top Slider */
+
 .banner {
 	position:relative;
 	overflow:auto;
@@ -65,4 +67,38 @@ h1.left_container_text_home {
 
 .banner ul li {
 	float:left;
+}
+
+/* Bottom Slider */
+
+#slide1_box1 {
+	background-color: blue;
+	width:315.5px;
+	height:214px;
+}
+
+#slide1_box1 div:hover {
+	opacity:0.3;
+}
+
+#slide1_box2 {
+	background-color: red;
+	width:313.5px;
+	height:214px;
+	margin-top:-214px;
+	margin-left:313.5px;
+}
+
+#slide2_box1 {
+	background-color: white;
+	width:315.5px;
+	height:214px;
+}
+
+#slide2_box2 {
+	background-color: black;
+	width:313.5px;
+	height:214px;
+	margin-top:-214px;
+	margin-left:313.5px;
 }

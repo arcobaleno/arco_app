@@ -16,5 +16,30 @@
 //= require_tree .
 
 $(function() {
+	$('#slide1_box1').hover(function(){
+    $('#slide1_box1').css("opacity","0.4");
+    },function(){
+    $('#slide1_box1').css("opacity","1.0");
+  });
+});
+
+$(function() {
+	$('#slide1_box2').hover(function(){
+    $('#slide1_box2').css("opacity","0.4");
+    },function(){
+    $('#slide1_box2').css("opacity","1.0");
+  });
+});
+
+$(function() {
 	$('.banner').unslider();
+});
+
+$(function() {
+	$('#right').cycle({ 
+    fx:      'scrollRight', 
+    next:   '#right', 
+    timeout:  0, 
+    easing:  'easeInOutBack' 
+	});
 });
